@@ -1,0 +1,22 @@
+nav a{
+    padding: 5px 20px;
+    /* background-color: lightblue; */
+    border-radius: 5px;
+    font-size: medium;
+
+}
+nav a:hover{
+    /* font-size: larger; */
+    background-color: coral;
+    box-shadow:gray 2px 3px 9px;
+    /* opacity: ; */
+    color: white;
+}
+nav a.active{
+    /* text-decoration: underline; */
+    /* color: peru; */
+    background-color: deepskyblue;
+    box-shadow: gray 2px 3px 9px;
+
+    color: white;
+}

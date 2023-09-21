@@ -9,7 +9,7 @@ const Users = () => {
         <div>
             <h2>Our Users:{users.length}</h2>
             <p className="text-xl">All are fantastic boaring users. </p>
-            <div>
+            <div className="grid grid-cols-3 gap-2 ">
                 {
                     users.map((usr) => <User key={usr.id} usr={usr}></User>)
                 }
